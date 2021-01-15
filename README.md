@@ -1,4 +1,6 @@
 # Image-Superresolution
-The aim of this project is to enhance the image quality of distorted or low quality images using Auto-encoders.
+Built a deep learning model that enhances the image quality of distorted or low quality images using Convolutional Neural Networks and Auto-encoders.
 
-Here, the LFW dataset is used which contains around 13000 images of various people. The quality of the images is reduced to 1/4th of the original quality and the convoluted low quality images are fed into the encoder-decoder model. The expected output should be the original images. The model learns to create the actual image from low quality image thus acting as self supervised learning.
+Here, the LFW dataset is used with contains around 13000 images of various people. The quality of the images of people is reduced to 1/4th of the original quality and fed into the model.
+
+The model learns to create the actual image from the distorted image acting like self-supervised learning. It provides images with far better quality than the distorted images.
